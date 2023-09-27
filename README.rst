@@ -76,7 +76,7 @@ application or as a static library to be linked into your own application. This 
 to manage build configurations.
 
 Standalone build on Linux and MacOS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 To configure your CMake build environment for ``lib_xcore_math``,
 from the root of the cloned repository, the following command may be used (ensure that the XTC build
@@ -93,7 +93,7 @@ instead: ::
     mkdir build && cd build && cmake -DDEV_LIB_XCORE_MATH=1 -DCMAKE_TOOLCHAIN_FILE=../etc/xmos_cmake_toolchain/xs3a.cmake -G"Unix Makefiles" ..
 
 Standalone build on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 To configure your CMake build environment for ``lib_xcore_math``,
 from the root of the cloned repository, the following command may be used (ensure that the XTC build
@@ -110,7 +110,7 @@ instead: ::
     mkdir build && cd build && cmake -DDEV_LIB_XCORE_MATH=1 -DCMAKE_TOOLCHAIN_FILE=../etc/xmos_cmake_toolchain/xs3a.cmake -G"Ninja" ..
 
 Include library in a different application
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 If you wish to include ``lib_xcore_math`` in your own application as a static library, the generated
 ``lib_xcore_math.a`` can then be linked into your own application. Be sure to also add
