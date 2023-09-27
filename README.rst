@@ -69,14 +69,14 @@ To clone this repository you may use the following: ::
 
 
 Including lib_xcore_math in External Applications
--------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``lib_xcore_math`` may be included in your own applications either as source to be compiled by your
 application or as a static library to be linked into your own application. This library uses CMake
 to manage build configurations.
 
 Standalone build on Linux and MacOS
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To configure your CMake build environment for ``lib_xcore_math``,
 from the root of the cloned repository, the following command may be used (ensure that the XTC build
